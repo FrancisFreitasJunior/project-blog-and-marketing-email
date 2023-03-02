@@ -1,0 +1,203 @@
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #ff0000; 
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100vw;
+}
+
+.main-container {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    display: block;
+    float: left;
+    margin: 0 auto;
+}
+
+header {
+    box-sizing: border-box;
+    background: #fff;
+    display: block;
+    float: left;
+    border-bottom: 2px solid #373435;
+    width: 100%;
+    padding: 20px;
+}
+
+header img{
+    height: 80px;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #254159;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #254159;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+h4 {
+    font-size: 1.6rem;
+    color: #385874;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#tenho-interesse {
+    background-color: #373435;
+    width: 100%;
+}
+
+#tenho-interesse h1{
+    color: #ED3237;
+}
+
+#tenho-interesse p{
+    color: #FFFFFF;
+}
+
+#tenho-interesse form,
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form div {
+    background-color: #b8c8d6 !important;
+}
+
+#tenho-interesse .cog-page__navigation {
+    text-align: center;
+}
+
+ol li {
+    font-size: 1.4rem;
+    color: #454545;
+}
+
+section {
+    box-sizing: border-box;
+    background-color: #fff;
+    display: block;
+    float: left;
+    font-size: 1.5rem; /* equivalente a 15px */
+    padding: 20px;
+    width: 100%;
+}
+
+
+section nav {
+    display: block;
+    float: left;
+}
+
+nav li {
+    background-color: #efefef;
+    margin: 1px 20px 1px 0;
+    padding: 10px;
+}
+
+nav li:hover {
+    background-color: #dfdfdf;
+}
+
+nav a {
+    text-decoration: none;
+    color: #254159;
+}
+
+nav a:hover {
+    color: #385874;
+}
+
+nav ul {
+    text-align: center;
+}
+
+
+section article {
+    box-sizing: border-box;
+    display: block;
+}
+
+.container nav{
+    width: 25%;
+}
+
+article .container {
+    width: 90%;
+}
+
+.alinhamento {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    box-sizing: border-box;
+    background-color: #254159;  
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
+
+.cognito {
+    height: 600px !important;
+    overflow: hidden !important;
+    background-color: #FFFFFF;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+#tenho-interesse {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 425px) {
+    section nav,
+    section article {
+        width: 100%;
+    }  
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
