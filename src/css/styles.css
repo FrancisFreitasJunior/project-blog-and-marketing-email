@@ -188,31 +188,6 @@ footer small {
     justify-content: center;
 }
 
-@media (max-width: 425px) {
-    
-    section .container {
-        width: 100%;
-    }
-
-    section article {
-        width: 100%;
-    }  
-
-    .container nav{
-        width: 100%;
-    }
-
-    .container li {
-        margin: 0px 0px 10px 0px;
-    }
-
-    .container {
-        padding-left: 1%;
-        padding-right: 1%;
-    }
-}
-
-
 /* parte nova */
 
 #banner {
@@ -310,4 +285,64 @@ dd {
     margin-left: 20px;
     margin-bottom: 20px;
     font-size: 1.4rem;
+}
+
+
+
+
+@media (max-width: 425px) {
+    
+    section .container {
+        width: 100%;
+    }
+
+    section article {
+        width: 100%;
+    }  
+
+    .container nav{
+        width: 100%;
+    }
+
+    .container li {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .legenda-container {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: 40px 0 0 0;
+    }
+
+    #saiba-mais {
+        display: flex;
+        background-color: #eaeff3;
+        padding: 40px;
+    }
+
+    #saiba-mais img {
+        width: 100%;
+        display: flex;
+        float: left;
+    }
+    
+    #saiba-mais p, h2 {
+        width: 100%;
+        display: block;
+        float: right;
+    }
+
+    .duvida, .duvida-imagem {
+        width: 100%;
+    }
+
+    #perguntas-frequentes .container {
+        display: block;
+    }
 }
